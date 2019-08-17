@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>柳莹的博客</title>
+  <title>流年的博客</title>
   
   <subtitle>倾听，感受，思考</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://liunian009.github.io/"/>
-  <updated>2019-08-16T07:19:02.796Z</updated>
+  <updated>2019-08-17T01:00:52.572Z</updated>
   <id>http://liunian009.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>致网络终于搭建好的这一天</title>
-    <link href="http://liunian009.github.io/2019/08/16/2017-conclusion/"/>
-    <id>http://liunian009.github.io/2019/08/16/2017-conclusion/</id>
-    <published>2019-08-16T04:32:09.000Z</published>
-    <updated>2019-08-16T07:19:02.796Z</updated>
+    <title>Git的基本操作</title>
+    <link href="http://liunian009.github.io/2019/08/17/stady-2019-8-17/"/>
+    <id>http://liunian009.github.io/2019/08/17/stady-2019-8-17/</id>
+    <published>2019-08-17T01:30:09.000Z</published>
+    <updated>2019-08-17T01:00:52.572Z</updated>
     
     <summary type="html">
     
@@ -35,10 +35,10 @@
     
     </summary>
     
-      <category term="随笔" scheme="http://liunian009.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="git" scheme="http://liunian009.github.io/categories/git/"/>
     
     
-      <category term="随笔" scheme="http://liunian009.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="git" scheme="http://liunian009.github.io/tags/git/"/>
     
   </entry>
   

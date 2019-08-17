@@ -4,23 +4,23 @@
   
     
     <entry>
-      <title>致网络终于搭建好的这一天</title>
-      <link href="/2019/08/16/2017-conclusion/"/>
-      <url>/2019/08/16/2017-conclusion/</url>
+      <title>Git的基本操作</title>
+      <link href="/2019/08/17/stady-2019-8-17/"/>
+      <url>/2019/08/17/stady-2019-8-17/</url>
       
-        <content type="html"><![CDATA[<div align="middle"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=407679465&auto=1&height=66"></iframe></div><p>搭建这个网站花了一周，特别感谢大佬们的教程。</p>]]></content>
+        <content type="html"><![CDATA[<div align="middle"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=407679465&auto=1&height=66"></iframe></div><h1 id="Git基本操作"><a href="#Git基本操作" class="headerlink" title="Git基本操作"></a>Git基本操作</h1><ul><li>提交做出更改后可在git Bash 输入$ git push origin master<h2 id="命令帮助"><a href="#命令帮助" class="headerlink" title="命令帮助"></a>命令帮助</h2></li><li>git help 列出所有git命令<h2 id="从github中拉取项目"><a href="#从github中拉取项目" class="headerlink" title="从github中拉取项目"></a>从github中拉取项目</h2></li><li>在终端输入git clone +链接即可<h2 id="从本地提交项目到github"><a href="#从本地提交项目到github" class="headerlink" title="从本地提交项目到github"></a>从本地提交项目到github</h2></li><li>在终端输入git push origin master<br>#origin是远程名字，git remote -v 能看到；master是分支名称git branch 能看到<h2 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h2></li><li>$ mkdir learngit   #创建+名字  创建文件夹</li><li>$ cd learngit   #进入 </li><li>$ cd ..  #返回上一层</li><li>$ pwd   #显示当前所在位置</li><li>$ git ini #把这个目录变成Git可以管理的仓库</li><li>$ git init   #创建一个空的仓库</li><li>$ ll #查看当前文件夹文件内容</li><li>$ vim xxx.py #打开一个py文件编辑<h2 id="把文件放到版本库"><a href="#把文件放到版本库" class="headerlink" title="把文件放到版本库"></a>把文件放到版本库</h2></li><li>文件放在版本库文件夹里面</li><li>例如上面放到learngit目录下（子目录也行）</li><li>$ git add readme.txt #命令git把readme.txt添加到仓库</li><li>$ git commit -m “wrote a readme file” #git commit告诉Git，把文件提交到仓库“”里面的内容为备注<h2 id="git暂存"><a href="#git暂存" class="headerlink" title="git暂存"></a>git暂存</h2></li><li>$ git stash #暂存文件 </li><li>$ git stash apply #暂存文件的恢复</li><li>$ git stash list #暂存多次后用来进行查看的方法<h2 id="多种指令"><a href="#多种指令" class="headerlink" title="多种指令"></a>多种指令</h2></li><li>$ git status #查看当前状态</li><li>$ touch test.txt #创建文件，touch+文件</li><li>$ git add test.txt #添加进去，git add+文件</li><li>$ git log # 查看</li><li>$ git reset –hard HEAD #提交错了,回退</li><li>$ git branch #在git项目里面，显示项目的分支情况</li><li>$ git branch -d xxx  # git branc -d +分支名 ，删除分支</li><li>$ git branch xxx #git branch+分支名，添加新分支</li><li>$ git checkout xxx #git checkout+分支名，切换分支</li><li>$ git checkout -b xxx #git checkout -b +分支名，创建新分支并且切换过去</li><li>$ git merge xxx #git merge +分支名,合并分支</li></ul><p>个人总结，希望对你有帮助。</p>]]></content>
       
       
       <categories>
           
-          <category> 随笔 </category>
+          <category> git </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 随笔 </tag>
+            <tag> git </tag>
             
         </tags>
       
