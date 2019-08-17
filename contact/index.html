@@ -306,29 +306,29 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     <div id="aboutme" class="container contact-container">
 
                     
+                    <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
 
-                    
-                    <link rel="stylesheet" href="/libs/gitment/gitment-default.css">
-<link rel="stylesheet" href="/css/gitment.css">
-
-<div class="gitment-card card" data-aos="fade-up">
-    <div id="gitment-content" class="card-content"></div>
+<div class="card gitalk-card" data-aos="fade-up">
+    <div id="gitalk-container" class="card-content"></div>
 </div>
 
-<script src="/libs/gitment/gitment.js"></script>
+<script src="/libs/gitalk/gitalk.min.js"></script>
 <script>
-var gitment = new Gitment({
-    id: 'Fri Jul 26 2019 17:17:02 GMT+0800',
-    owner: 'liunian009',
-    repo: 'liunian009.github.io',
-    oauth: {
-        client_id: 'abe18dd27743186265bd',
-        client_secret: '116372d6f24272d5f7962e93b40237cae66e8cc9'
-    }
-});
+    let gitalk = new Gitalk({
+        clientID: 'abe18dd27743186265bd',
+        clientSecret: '116372d6f24272d5f7962e93b40237cae66e8cc9',
+        repo: 'liunian009.github.io',
+        owner: 'liunian009',
+        admin: "liunian009",
+        id: 'contact/index.html',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
 
-gitment.render('gitment-content');
+    gitalk.render('gitalk-container');
 </script>
+                    
+
                     
 
                     
