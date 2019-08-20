@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://liunian009.github.io/"/>
-  <updated>2019-08-17T01:00:52.572Z</updated>
+  <updated>2019-08-20T01:32:51.270Z</updated>
   <id>http://liunian009.github.io/</id>
   
   <author>
@@ -17,9 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>python基础学习（一）</title>
+    <link href="http://liunian009.github.io/2019/08/20/python-ji-chu-xue-xi-yi/"/>
+    <id>http://liunian009.github.io/2019/08/20/python-ji-chu-xue-xi-yi/</id>
+    <published>2019-08-20T01:04:09.000Z</published>
+    <updated>2019-08-20T01:32:51.270Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;div align=&quot;middle&quot;&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://liunian009.github.io/categories/python/"/>
+    
+    
+      <category term="python基础" scheme="http://liunian009.github.io/tags/python%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Git的基本操作</title>
-    <link href="http://liunian009.github.io/2019/08/17/stady-2019-8-17/"/>
-    <id>http://liunian009.github.io/2019/08/17/stady-2019-8-17/</id>
+    <link href="http://liunian009.github.io/2019/08/17/git-de-ji-ben-cao-zuo/"/>
+    <id>http://liunian009.github.io/2019/08/17/git-de-ji-ben-cao-zuo/</id>
     <published>2019-08-17T01:30:09.000Z</published>
     <updated>2019-08-17T01:00:52.572Z</updated>
     
