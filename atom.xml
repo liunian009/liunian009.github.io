@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://liunian009.github.io/"/>
-  <updated>2019-08-20T01:50:47.405Z</updated>
+  <updated>2019-08-20T01:56:53.002Z</updated>
   <id>http://liunian009.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://liunian009.github.io/2019/08/20/python-ji-chu-xue-xi-yi/"/>
     <id>http://liunian009.github.io/2019/08/20/python-ji-chu-xue-xi-yi/</id>
     <published>2019-08-20T01:04:09.000Z</published>
-    <updated>2019-08-20T01:50:47.405Z</updated>
+    <updated>2019-08-20T01:56:53.002Z</updated>
     
     <summary type="html">
     
@@ -38,7 +38,9 @@
       <category term="python" scheme="http://liunian009.github.io/categories/python/"/>
     
     
-      <category term="python基础" scheme="http://liunian009.github.io/tags/python%E5%9F%BA%E7%A1%80/"/>
+      <category term="python" scheme="http://liunian009.github.io/tags/python/"/>
+    
+      <category term="零基础" scheme="http://liunian009.github.io/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
