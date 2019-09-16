@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://liunian009.github.io/2019/09/16/python-ji-chu-xue-xi-si/</loc>
+    
+    <lastmod>2019-09-16T02:21:45.094Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://liunian009.github.io/2019/09/05/python-ji-chu-xue-xi-san/</loc>
     
     <lastmod>2019-09-05T02:10:51.774Z</lastmod>
@@ -37,13 +44,6 @@
   </url>
   
   <url>
-    <loc>http://liunian009.github.io/tags/index.html</loc>
-    
-    <lastmod>2019-08-16T04:00:52.381Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://liunian009.github.io/friends/index.html</loc>
     
     <lastmod>2019-08-16T04:00:52.381Z</lastmod>
@@ -51,14 +51,21 @@
   </url>
   
   <url>
-    <loc>http://liunian009.github.io/categories/index.html</loc>
+    <loc>http://liunian009.github.io/tags/index.html</loc>
+    
+    <lastmod>2019-08-16T04:00:52.381Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://liunian009.github.io/contact/index.html</loc>
     
     <lastmod>2019-08-16T04:00:52.380Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://liunian009.github.io/contact/index.html</loc>
+    <loc>http://liunian009.github.io/categories/index.html</loc>
     
     <lastmod>2019-08-16T04:00:52.380Z</lastmod>
     

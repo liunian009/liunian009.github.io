@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://liunian009.github.io/"/>
-  <updated>2019-09-05T02:10:51.774Z</updated>
+  <updated>2019-09-16T02:21:45.094Z</updated>
   <id>http://liunian009.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python基础学习（四）</title>
+    <link href="http://liunian009.github.io/2019/09/16/python-ji-chu-xue-xi-si/"/>
+    <id>http://liunian009.github.io/2019/09/16/python-ji-chu-xue-xi-si/</id>
+    <published>2019-09-16T01:12:09.000Z</published>
+    <updated>2019-09-16T02:21:45.094Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;div align=&quot;middle&quot;&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://liunian009.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://liunian009.github.io/tags/python/"/>
+    
+      <category term="零基础" scheme="http://liunian009.github.io/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
   
   <entry>
     <title>python基础学习（三）</title>
