@@ -687,6 +687,17 @@ a<span class="token punctuation">.</span>原始函数<span class="token punctuat
 子类实例 <span class="token operator">=</span> 子类<span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span>
 子类实例<span class="token punctuation">.</span>打印属性<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>子类能覆盖任意父类方法，包括初始化函数<code>__init__</code><br>多重继承：<br>用法：class 子类（父类1.父类2……）</p>
+<h3 id="子类引用父类属性-super"><a href="#子类引用父类属性-super" class="headerlink" title="子类引用父类属性-super()"></a>子类引用父类属性-super()</h3><pre class="line-numbers language-python"><code class="language-python">父类：
+<span class="token keyword">class</span> <span class="token class-name">Person</span><span class="token punctuation">:</span>
+    attr <span class="token operator">=</span> <span class="token string">'666'</span>
+子类：
+<span class="token keyword">class</span> <span class="token class-name">YellowPeople</span><span class="token punctuation">(</span>Person<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">def</span> <span class="token function">print_some</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span>super<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>attr<span class="token punctuation">)</span>
+
+ h <span class="token operator">=</span> YellowPeople<span class="token punctuation">(</span><span class="token punctuation">)</span>
+ h<span class="token punctuation">.</span>print_some<span class="token punctuation">(</span><span class="token punctuation">)</span>
+ <span class="token comment" spellcheck="true">#输出666</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>个人总结，希望对你有帮助。</p>
 
             </div>
@@ -910,18 +921,17 @@ a<span class="token punctuation">.</span>原始函数<span class="token punctuat
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/09/16/python-ji-chu-xue-xi-si/">
+                <a href="/2019/09/30/python-ji-chu-xue-xi-wu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="python基础学习（四）">
+                        <img src="/medias/featureimages/31.jpg" class="responsive-img" alt="python基础学习（五）">
                         
-                        <span class="card-title">python基础学习（四）</span>
+                        <span class="card-title">python基础学习（五）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -929,16 +939,30 @@ a<span class="token punctuation">.</span>原始函数<span class="token punctuat
                         
                             
 
-time模块sleep()用法：time.sleep(secs) secs表示多少秒，填入数字
-import time   #调用time模块
-time.sleep(secs)   
-#使用time模块下面的sleep()函数，括号里填
+try…except尝试解决被动掉坑报错python标准异常
+
+
+异常名称
+描述
+
+
+
+BaseException
+所有异常的基类
+
+
+SystemExit
+解释器请求退出
+
+
+KeyboardInterrupt
+用户中断执行(通常是输
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-16
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-30
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -951,7 +975,6 @@ time.sleep(secs)
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
@@ -1176,7 +1199,7 @@ print(l
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">5.2k</span>
+            <span class="white-color">7.6k</span>
             
 
             <br>
