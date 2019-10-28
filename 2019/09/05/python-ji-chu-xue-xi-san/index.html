@@ -536,13 +536,13 @@ scores <span class="token operator">=</span> <span class="token punctuation">{</
 <span class="token comment" spellcheck="true">#输出3</span>
 <span class="token keyword">print</span><span class="token punctuation">(</span>len<span class="token punctuation">(</span>scores<span class="token punctuation">)</span><span class="token punctuation">)</span>
 <span class="token comment" spellcheck="true">#输出3</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="元祖"><a href="#元祖" class="headerlink" title="元祖"></a>元祖</h2><p>元祖和列表类似，用（）表示，无法对元祖进行增删元素操作<br>元组提取方式也是偏移量，如 tuple1[1]、tuple1[1:]。另外，元组也支持任意的嵌套。</p>
+<h2 id="元祖"><a href="#元祖" class="headerlink" title="元祖"></a>元祖</h2><p>元祖和列表类似，用（）表示，无法对元祖进行增删元素操作<br>元祖提取方式也是偏移量，如 tuple1[1]、tuple1[1:]。另外，元祖也支持任意的嵌套。</p>
 <pre class="line-numbers language-pytrhon"><code class="language-pytrhon">tuple1 = ('A','B')
 list2 = [('A','B'),('C','D'),('E','F')]
 print(tuple1[0])
 #输出A
 print(list2[1][1])
-#输出B<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+#输出D<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <h2 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h2><h3 id="for…in…循环"><a href="#for…in…循环" class="headerlink" title="for…in…循环"></a>for…in…循环</h3><pre class="line-numbers language-python"><code class="language-python"><span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
     <span class="token keyword">print</span><span class="token punctuation">(</span>i<span class="token operator">*</span><span class="token number">5</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">#将会被重复执行</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <h3 id="range-函数"><a href="#range-函数" class="headerlink" title="range()函数"></a>range()函数</h3><p>经常和for in搭配使用</p>
